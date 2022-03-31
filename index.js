@@ -13,3 +13,7 @@ app.listen(4004,() => {
 });
 
 app.post("/api/email", register);
+
+app.get("/api/bodyweweight", (req, res) =>  {
+let bodyType= ["underweight","healthy", "overweight", "obese"];
+res.status(200)}
