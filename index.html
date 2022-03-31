@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Website</title>
+    <link rel="stylesheet" href="website.css">
+    <script src="website.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <h1>What is BMI and Whats Your BMI</h1>
+    <label>
+        <input id="email-input" type="string" placeholder="Please Enter Your Email">
+    </label>
+    <button onclick="Email()"> Submit for Weekly Newsletter</button> 
+    <div id="body-images">
+    <img src="https://thumbs.dreamstime.com/b/vector-cartoon-stick-figure-drawing-conceptual-illustration-slim-thin-skinny-man-big-trousers-concept-oh-healthy-170727930.jpg" alt="Underweight Stick Figure">
+    <img src="https://content.presentermedia.com/files/clipart/00015000/15023/stick_figure_doing_squats_800_wht.jpg" src="Healthy weight">
+    <img src="https://content.presentermedia.com/files/clipart/00003000/3853/stick_figure_overweight_scale_800_wht.jpg" src="Overweight">
+    <img src="https://cdn.imgbin.com/21/7/19/imgbin-stick-figure-fat-fat-person-N0Eb3kSLgGkDhPw8NX2hDAwB9.jpg" src="Obese">
+    <div>
+    <button onclick="Underweightbtn()">Underweight</button>
+    <button onclick="Healthybtn()">Healthy</button>
+    <button onclick="Overweightbtn()">Overweight</button>
+    <button onclick="Obesebtn()">Obese</button>
+    <div>
+    
+    <div class="container">
+        <h1>The BMI Calculation</h1>
+        <label>
+            <input id="height-input" type="number" placeholder="Please Enter Your Height in Centimeters: "> 
+        </label>
+        <label>
+            <input id="weight-input" type="number" placeholder="Please Enter Your Weight in Kilograms: ">
+        </label>
+        <button onclick="Calculate()"> Calculate the BMI</button>
+        <div class="bmi-value">
+            <h3>The BMI Calculation</h3>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="results">
+            <h3>Results</h3>
+            <div id="bmi-results"></div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>

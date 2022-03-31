@@ -1,0 +1,70 @@
+body {
+    background-color: aqua;
+}
+img {
+display: inline;
+margin: 0px;
+padding: 0px;
+height: 200px;
+width: 200px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(3, 0, 0);
+}
+.submit-btn{
+    background-color: rgb(14, 245, 222);
+}
+.bmi-value{
+    background-color: rgb(247, 247, 4);
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.status{
+    background-color: rgb(136, 127, 255);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.container > div{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+button,input{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 8px;
+}
+input{
+    background: #fdff99;
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: black;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    background: tomato;
+    cursor: pointer;
+}
+button:hover{
+    background: #c70039;
+    color: white;
+
+
+
+
